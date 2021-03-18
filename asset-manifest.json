@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/bohdanshevchenkoA.github.io/table_creator/static/css/main.aa701458.chunk.css",
-    "main.js": "/bohdanshevchenkoA.github.io/table_creator/static/js/main.f5d3ef5c.chunk.js",
-    "main.js.map": "/bohdanshevchenkoA.github.io/table_creator/static/js/main.f5d3ef5c.chunk.js.map",
-    "runtime-main.js": "/bohdanshevchenkoA.github.io/table_creator/static/js/runtime-main.076a6d8e.js",
-    "runtime-main.js.map": "/bohdanshevchenkoA.github.io/table_creator/static/js/runtime-main.076a6d8e.js.map",
-    "static/js/2.a421f3d2.chunk.js": "/bohdanshevchenkoA.github.io/table_creator/static/js/2.a421f3d2.chunk.js",
-    "static/js/2.a421f3d2.chunk.js.map": "/bohdanshevchenkoA.github.io/table_creator/static/js/2.a421f3d2.chunk.js.map",
-    "static/js/3.07145a85.chunk.js": "/bohdanshevchenkoA.github.io/table_creator/static/js/3.07145a85.chunk.js",
-    "static/js/3.07145a85.chunk.js.map": "/bohdanshevchenkoA.github.io/table_creator/static/js/3.07145a85.chunk.js.map",
-    "index.html": "/bohdanshevchenkoA.github.io/table_creator/index.html",
-    "static/css/main.aa701458.chunk.css.map": "/bohdanshevchenkoA.github.io/table_creator/static/css/main.aa701458.chunk.css.map",
-    "static/js/2.a421f3d2.chunk.js.LICENSE.txt": "/bohdanshevchenkoA.github.io/table_creator/static/js/2.a421f3d2.chunk.js.LICENSE.txt"
+    "main.css": "/bohdanshevchenkoA.github.io/static/css/main.aa701458.chunk.css",
+    "main.js": "/bohdanshevchenkoA.github.io/static/js/main.f5d3ef5c.chunk.js",
+    "main.js.map": "/bohdanshevchenkoA.github.io/static/js/main.f5d3ef5c.chunk.js.map",
+    "runtime-main.js": "/bohdanshevchenkoA.github.io/static/js/runtime-main.30a976d2.js",
+    "runtime-main.js.map": "/bohdanshevchenkoA.github.io/static/js/runtime-main.30a976d2.js.map",
+    "static/js/2.a421f3d2.chunk.js": "/bohdanshevchenkoA.github.io/static/js/2.a421f3d2.chunk.js",
+    "static/js/2.a421f3d2.chunk.js.map": "/bohdanshevchenkoA.github.io/static/js/2.a421f3d2.chunk.js.map",
+    "static/js/3.07145a85.chunk.js": "/bohdanshevchenkoA.github.io/static/js/3.07145a85.chunk.js",
+    "static/js/3.07145a85.chunk.js.map": "/bohdanshevchenkoA.github.io/static/js/3.07145a85.chunk.js.map",
+    "index.html": "/bohdanshevchenkoA.github.io/index.html",
+    "static/css/main.aa701458.chunk.css.map": "/bohdanshevchenkoA.github.io/static/css/main.aa701458.chunk.css.map",
+    "static/js/2.a421f3d2.chunk.js.LICENSE.txt": "/bohdanshevchenkoA.github.io/static/js/2.a421f3d2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.076a6d8e.js",
+    "static/js/runtime-main.30a976d2.js",
     "static/js/2.a421f3d2.chunk.js",
     "static/css/main.aa701458.chunk.css",
     "static/js/main.f5d3ef5c.chunk.js"
