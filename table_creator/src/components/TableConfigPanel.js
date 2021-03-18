@@ -15,6 +15,7 @@ export function TableConfigPanel({ columns, onEditColumn, pageSize, onPageSizeCh
     }, [])
 
     function columnNumChangeHandler(columnCount) {
+        
         if (columnCount > 0) {
             let newColumn = JSON.parse(JSON.stringify(columns));
 
@@ -23,7 +24,7 @@ export function TableConfigPanel({ columns, onEditColumn, pageSize, onPageSizeCh
                     newColumn.push({
                         id: i + 1 + '-tableColumn',
                         data: dataInstances[0].data,
-                        header: dataInstances[0].name.toUpperCase(),
+                        header: dataInstances[0].data.toUpperCase(),
                         type: COLUMN_TYPE.TEXT,
                         isSortable: true,
                         isSearchable: true
@@ -35,7 +36,6 @@ export function TableConfigPanel({ columns, onEditColumn, pageSize, onPageSizeCh
                     index < columnCount
                 ));
             }
-            debugger;
             onEditColumn(newColumn);
 
         } else {
