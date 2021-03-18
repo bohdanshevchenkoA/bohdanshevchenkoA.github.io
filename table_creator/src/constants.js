@@ -1,0 +1,1 @@
+export const COLUMN_TYPE = {TEXT: 'Text', NUMBER: 'Number', IMAGE: 'Image', LINK: 'Link'}

@@ -1,0 +1,127 @@
+.App {
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-rows: 1fr 1fr 15fr 1fr;
+    height: 100vh;
+    text-align: center;
+}
+
+.ul-table, .search-panel, .pagination, .accordion-body {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.ul-table {
+    display: flex;
+    overflow: auto;
+    border: 1px solid rgba(0, 0, 0, .125);
+}
+
+.table-header {
+    min-height: 45px;
+    min-width: max-content;
+}
+
+.table-column {
+    width: 100%;
+    height: fit-content;
+    border-radius: 0%;
+}
+
+.table-cell {
+    height: auto;
+}
+
+.table-cell>img {
+    height: 200px;
+}
+
+.pagination {
+    background-color: #e9ecef;
+}
+
+.pagination * {
+    border: none;
+}
+
+.record-number {
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.accordion {
+    width: 100%;
+    background-color: white;
+}
+
+.accordion-body {
+    display: flex;
+    height: 22vh;
+    justify-content: space-between;
+}
+
+.table-bordered {
+    display: block;
+    width: 80%;
+    overflow: auto;
+}
+
+tr>th, .table-header {
+    position: sticky;
+    top: 0;
+}
+tr>th{
+    background: #e9ecef !important;
+}
+.config-panel {
+    overflow: auto;
+}
+
+.accordion-button-custom {
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    color: #0d6efd;
+}
+
+.accordion-button-custom:hover {
+    color: white;
+    transition: 0.5s;
+    background-color: #0d6efd;
+}
+
+.accordion-button-custom:not(:hover) {
+    color: #0d6efd;
+    transition: 0.5s;
+    background-color: white;
+}
+
+.alert {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+}
+
+.spinner-grow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+}
+
+.input-search {
+    width: 70% !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
